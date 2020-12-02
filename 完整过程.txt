@@ -1,0 +1,102 @@
+
+hehejun85@DESKTOP-5SO3S60 MINGW64 /d/SoftWareData/GitHub
+$ git init
+Initialized empty Git repository in D:/SoftWareData/GitHub/.git/
+
+hehejun85@DESKTOP-5SO3S60 MINGW64 /d/SoftWareData/GitHub (master)
+
+$ git config --global user.email '2234356856@qq.com'
+
+hehejun85@DESKTOP-5SO3S60 MINGW64 /d/SoftWareData/GitHub (master)
+
+$ git config --global user.name 'hehejun85'
+
+hehejun85@DESKTOP-5SO3S60 MINGW64 /d/SoftWareData/GitHub (master)
+
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=D:/SoftWare/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+core.editor="D:\\软件\\Notepad++\\notepad++.exe" -multiInst -notabbar -nosession -noPlugin
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+user.name=hehejun85
+user.email=2234356856@qq.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+hehejun85@DESKTOP-5SO3S60 MINGW64 /d/SoftWareData/GitHub (master)
+$ git clone https://github.com/hehejun85/hehejun85.github.io.git
+Cloning into 'hehejun85.github.io'...
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (8/8), done.
+
+hehejun85@DESKTOP-5SO3S60 MINGW64 /d/SoftWareData/GitHub (master)
+$ pwd
+/d/SoftWareData/GitHub
+
+hehejun85@DESKTOP-5SO3S60 MINGW64 /d/SoftWareData/GitHub (master)
+$ cd /hehejun85.github.io
+bash: cd: /hehejun85.github.io: No such file or directory
+
+hehejun85@DESKTOP-5SO3S60 MINGW64 /d/SoftWareData/GitHub (master)
+$ cd hehejun85.github.io
+
+hehejun85@DESKTOP-5SO3S60 MINGW64 /d/SoftWareData/GitHub/hehejun85.github.io (main)
+$ git add helloworld.html
+
+hehejun85@DESKTOP-5SO3S60 MINGW64 /d/SoftWareData/GitHub/hehejun85.github.io (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   helloworld.html
+
+
+hehejun85@DESKTOP-5SO3S60 MINGW64 /d/SoftWareData/GitHub/hehejun85.github.io (main)
+
+$ git  commit -m 'first'
+[main 8301835] first
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 helloworld.html
+
+hehejun85@DESKTOP-5SO3S60 MINGW64 /d/SoftWareData/GitHub/hehejun85.github.io (main)
+
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+hehejun85@DESKTOP-5SO3S60 MINGW64 /d/SoftWareData/GitHub/hehejun85.github.io (main)
+
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 270 bytes | 270.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/hehejun85/hehejun85.github.io.git
+   b676bf0..8301835  main -> main
+
+hehejun85@DESKTOP-5SO3S60 MINGW64 /d/SoftWareData/GitHub/hehejun85.github.io (main)
+$
